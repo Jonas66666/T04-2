@@ -12,3 +12,5 @@ d3.select("svg")
 .attr("width", 100)
 .attr("height", 30)
 .style("fill", "green");
+
+// rectangle bar chart design
