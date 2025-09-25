@@ -309,10 +309,17 @@
         </nav>
     </header>
     <h1>Appliance Energy Consumption</h1>
-        <div id="content"></div>
+        <!-- <div id="content"></div> -->
         <!-- Give the SVG a size so shapes can be seen -->
-        <svg width="300" height="150"></svg>
-        <!-- Load D3 first, then your D3 code file -->
+        <!-- <svg width="300" height="150"></svg> -->
+        <!-- Old T04-2 demo (temporarily disabled) -->
+        <!-- <script src="energy-d3.js"></script> -->
+
+        <!-- NEW: Container for T04-3 chart -->
+        <div class="responsive-svg-container"></div>
+        <!-- D3 library -->
         <script src="https://d3js.org/d3.v7.min.js"></script>
-        <script src="energy-d3.js"></script>
+        <!-- NEW: JS for T04-3 only -->
+        <script src="t04-3-bars.js"></script>
+
     </body>
